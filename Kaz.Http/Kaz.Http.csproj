@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Kaz.Http</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Bronsk1y</Authors>
+		<Description>Kaz.Http is a resilient HTTP client with retry, caching, rate limiting, circuit breaking, 
+		fallback routing, bulkhead isolation, telemetry and request signing.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>kaz-http-icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="kaz-http-icon.png" Pack="true" PackagePath="C:\Users\Артём\source\repos\Kaz.Http\kaz-http-icon.png" />
+	</ItemGroup>
+</Project>
