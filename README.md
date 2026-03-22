@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" alt="KazHttpIcon" src="kaz-http-icon.png" />
+  <img width="300" alt="KazHttpIcon" src="kaz-http-icon.png" />
 </p>
 
 <h1 align="center">Kaz.Http</h1>
