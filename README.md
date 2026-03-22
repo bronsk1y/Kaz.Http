@@ -37,6 +37,20 @@ Install-Package Kaz.Http
 
 ---
 
+## What's Inside
+
+| Feature | Description |
+|---|---|
+| Retry | Automatic retry with exponential backoff and 429 Retry-After support |
+| Caching | ETag-based response caching with deduplication of concurrent GET requests |
+| Rate Limiting | Per-host request rate limiting with configurable window |
+| Circuit Breaker | Prevents cascading failures with configurable threshold and recovery timeout |
+| Bulkhead | Limits concurrent requests per host via semaphore isolation |
+| Fallback Routing | Redirects to a backup URL when the primary fails after all retries |
+| Request Signing | Adds HMAC-SHA256 `X-Timestamp` and `X-Signature` headers |
+| Contracts | Post-deserialization response validation with custom rules |
+| Telemetry | Tracks total requests, errors, and last request duration |
+
 ## How to use
 
 <details>
