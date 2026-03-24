@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://www.nuget.org/packages/Kaz.Http"><img src="https://img.shields.io/nuget/dt/Kaz.Http" alt="NuGet Version"></a>
-  <a href="https://www.nuget.org/packages/Kaz.Http"><img src="https://img.shields.io/nuget/dt/Kaz.Http?color=blue" alt="NuGet Downloads"></a>
   <img src="https://img.shields.io/badge/.NET-6%2B-purple" alt=".NET 6+">
   <img src="https://img.shields.io/badge/language-C%23-239120?logo=csharp" alt="Language">
 </p>
